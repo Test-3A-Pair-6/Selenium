@@ -1,0 +1,16 @@
+{
+  "accounts": [
+    {
+      "type": "Instagram",
+      "url": "https://www.instagram.com/username"
+    },
+    {
+      "type": "LinkedIn",
+      "url": "https://www.linkedin.com/in/username"
+    },
+    {
+      "type": "Twitter",
+      "url": "https://www.twitter.com/username"
+    }
+  ]
+}
