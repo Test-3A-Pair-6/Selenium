@@ -31,7 +31,7 @@ class PageCertificateCRUD:
         self.user_name.send_keys(username)
         self.password.send_keys(password)
         self.driver.execute_script("window.scrollTo(0, 300);")
-        sleep(20)
+        sleep(20) #Has been added because Tobeto put reCaptcha and told us to manually pass it.
         self.login_button.click()
     
     def navigate_to_certificates(self, url):
