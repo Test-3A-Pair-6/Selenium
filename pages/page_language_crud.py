@@ -1,6 +1,6 @@
 from time import sleep
 
-from selenium.webdriver import Keys
+from selenium.webdriver import ActionChains
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
@@ -62,6 +62,28 @@ class PageLanguageCRUD:
             EC.element_to_be_clickable((By.XPATH, save_button_xpath))
         )
         save_button.click()
+
+    def delete_language(self, language):
+        language_xpath = f"//*[@id=\"__next\"]/div/main/section/div/div/div[2]/div/div/div"
+        delete_button_xpath = ".//span[@class='delete-lang']"
+
+        language_element = WebDriverWait(self.driver, 20).until(
+            EC.presence_of_element_located((By.XPATH, language_xpath))
+        )
+
+        action = ActionChains(self.driver)
+        action.move_to_element(language_element).perform()
+
+        delete_button = WebDriverWait(language_element, 20).until(
+            EC.element_to_be_clickable((By.XPATH, delete_button_xpath))
+        )
+        delete_button.click()
+
+        confirm_button_xpath = "//button[contains(@class, 'btn-yes') and text()='Evet']"
+        confirm_button = WebDriverWait(self.driver, 20).until(
+            EC.element_to_be_clickable((By.XPATH, confirm_button_xpath))
+        )
+        confirm_button.click()
 
     def verify_warnings(self):
         warning_xpath = "//p[text()='Doldurulması zorunlu alan*']"

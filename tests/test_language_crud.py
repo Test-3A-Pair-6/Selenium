@@ -15,17 +15,17 @@ class TestLanguageCRUD:
     
     def test_add_language_success(self):
         self.page.login(const.valid_user_name, const.valid_password)
-        WebDriverWait(self.driver, 20).until(EC.url_changes("https://tobeto.com/giris"))
-        self.page.navigate_to_languages("https://tobeto.com/profilim/profilimi-duzenle/yabanci-dil")
+        WebDriverWait(self.driver, 20).until(EC.url_changes(const.loginURL))
+        self.page.navigate_to_languages(const.languagesURL)
 
-        self.page.add_language(language="Arapça", level=" Temel Seviye (A1, A2)")
+        self.page.add_language(language=const.language, level=const.level)
         self.page.operationResult()
         assert "• Yabancı dil bilgisi eklendi." in self.page.toast_message
     
     def test_add_language_both_empty(self):
         self.page.login(const.valid_user_name, const.valid_password)
-        WebDriverWait(self.driver, 20).until(EC.url_changes("https://tobeto.com/giris"))
-        self.page.navigate_to_languages("https://tobeto.com/profilim/profilimi-duzenle/yabanci-dil")
+        WebDriverWait(self.driver, 20).until(EC.url_changes(const.loginURL))
+        self.page.navigate_to_languages(const.languagesURL)
 
         self.page.add_language()
         warnings = self.page.verify_warnings()
@@ -33,18 +33,27 @@ class TestLanguageCRUD:
 
     def test_add_language_only_language(self):
         self.page.login(const.valid_user_name, const.valid_password)
-        WebDriverWait(self.driver, 20).until(EC.url_changes("https://tobeto.com/giris"))
-        self.page.navigate_to_languages("https://tobeto.com/profilim/profilimi-duzenle/yabanci-dil")
+        WebDriverWait(self.driver, 20).until(EC.url_changes(const.loginURL))
+        self.page.navigate_to_languages(const.languagesURL)
 
-        self.page.add_language(language="Arapça")
+        self.page.add_language(language=const.language)
         warnings = self.page.verify_warnings()
         assert warnings == 1, f"Expected 1 warning, but found {warnings}"
 
     def test_add_language_only_level(self):
         self.page.login(const.valid_user_name, const.valid_password)
-        WebDriverWait(self.driver, 20).until(EC.url_changes("https://tobeto.com/giris"))
-        self.page.navigate_to_languages("https://tobeto.com/profilim/profilimi-duzenle/yabanci-dil")
+        WebDriverWait(self.driver, 20).until(EC.url_changes(const.loginURL))
+        self.page.navigate_to_languages(const.languagesURL)
 
-        self.page.add_language(level=" Temel Seviye (A1, A2)")
+        self.page.add_language(level=const.level)
         warnings = self.page.verify_warnings()
         assert warnings == 1, f"Expected 1 warning, but found {warnings}"
+
+    def test_delete_language(self):
+        self.page.login(const.valid_user_name, const.valid_password)
+        WebDriverWait(self.driver, 20).until(EC.url_changes(const.loginURL))
+        self.page.navigate_to_languages(const.languagesURL)
+        
+        self.page.delete_language(language=const.language)
+        self.page.operationResult()
+        assert const.language_delete_message in self.page.toast_message
