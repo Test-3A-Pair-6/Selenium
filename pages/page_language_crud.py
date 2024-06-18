@@ -32,39 +32,41 @@ class PageLanguageCRUD:
     def navigate_to_languages(self, url):
         self.driver.get(url)
 
-    def add_language(self):
-        try:
+    def add_language(self, language=None, level=None):
+        if language:
             dropdown1 = WebDriverWait(self.driver, 20).until(
                 EC.element_to_be_clickable((By.CSS_SELECTOR, "#__next > div > main > section > div > div > div.col-12.col-lg-9 > form > div > div:nth-child(1) > div > div"))
             )
             self.driver.execute_script("arguments[0].scrollIntoView(true);", dropdown1)
             dropdown1.click()
-            option1_xpath = "//div[contains(@class, 'select__option') and text()='Arapça']"
+            option1_xpath = f"//div[contains(@class, 'select__option') and text()='{language}']"
             option1 = WebDriverWait(self.driver, 20).until(
                 EC.element_to_be_clickable((By.XPATH, option1_xpath))
             )
             option1.click()
 
+        if level:
             dropdown2 = WebDriverWait(self.driver, 20).until(
                 EC.element_to_be_clickable((By.CSS_SELECTOR, "#__next > div > main > section > div > div > div.col-12.col-lg-9 > form > div > div:nth-child(2) > div > div"))
             )
             self.driver.execute_script("arguments[0].scrollIntoView(true);", dropdown2)
             dropdown2.click()
-            option2_xpath = "//div[contains(@class, 'select__option') and text()=' Temel Seviye (A1, A2)']"
+            option2_xpath = f"//div[contains(@class, 'select__option') and text()='{level}']"
             option2 = WebDriverWait(self.driver, 20).until(
                 EC.element_to_be_clickable((By.XPATH, option2_xpath))
             )
             option2.click()
 
-            save_button_xpath = "//button[contains(@class, 'btn-primary') and contains(text(), 'Kaydet')]"
-            save_button = WebDriverWait(self.driver, 20).until(
-                EC.element_to_be_clickable((By.XPATH, save_button_xpath))
-            )
-            save_button.click()
+        save_button_xpath = "//button[contains(@class, 'btn-primary') and contains(text(), 'Kaydet')]"
+        save_button = WebDriverWait(self.driver, 20).until(
+            EC.element_to_be_clickable((By.XPATH, save_button_xpath))
+        )
+        save_button.click()
 
-        except Exception as e:
-            print("Error adding language:", e)
-            print(self.driver.page_source)
+    def verify_warnings(self):
+        warning_xpath = "//p[text()='Doldurulması zorunlu alan*']"
+        warnings = self.driver.find_elements(By.XPATH, warning_xpath)
+        return len(warnings)
 
     def operationResult(self):
         self.toast_message = Driver.wait(self.driver, By.XPATH, "//div[@class='toast-body']").text
