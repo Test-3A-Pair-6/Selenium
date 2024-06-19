@@ -31,6 +31,11 @@ class PageSettings:
     def operationResult(self):
         self.toast_message = Driver.wait(self.driver, By.XPATH, "//div[@class='toast-body']").text
 
+    def verify_warnings(self, field_error_message):
+        warning_xpath = f"//span[text()='{field_error_message}']"
+        warnings = self.driver.find_elements(By.XPATH, warning_xpath)
+        return len(warnings)
+
     def change_password(self, current_password, new_password):
         current_password_input = WebDriverWait(self.driver, 20).until(
             EC.presence_of_element_located((By.NAME, "currentPassword"))

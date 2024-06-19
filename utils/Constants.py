@@ -19,6 +19,7 @@ settingsURL = "https://tobeto.com/profilim/profilimi-duzenle/ayarlar"
 settings_user_name = "kumburgazli.recai@floodouts.com" # bu kısım https://www.fakemail.net/ adresinden edinildi
 settings_password = "Test-3aPair-6"
 settings_new_password = "pair.6.otomasyon"
+settings_wrong_new_password = "123"
 change_password_msg = "• Şifreniz güncellenmiştir."
 change_password_wrong_msg = "• Şifreniz en az 6 karakterden oluşmalıdır."
 password_do_not_match_msg = "• Girilen şifreler eşleşmiyor kontrol ediniz.."

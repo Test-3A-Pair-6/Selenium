@@ -21,3 +21,22 @@ class TestSettings:
         self.page.change_password(const.settings_password, const.settings_new_password)
         self.page.operationResult()
         assert const.change_password_msg in self.page.toast_message
+
+    def test_change_password_all_empty(self):
+        self.page.login(const.settings_user_name, const.settings_new_password)
+        WebDriverWait(self.driver, 20).until(EC.url_changes(const.loginURL))
+        self.page.navigate_to_settings(const.settingsURL)
+
+        self.page.change_password("","")
+        warnings = self.page.verify_warnings(const.field_error_message)
+        assert warnings == 3, f"Expected 3 warnings, but found {warnings}"
+
+    def test_change_password_confirmation_empty(self):
+        self.page.login(const.settings_user_name, const.settings_new_password)
+        WebDriverWait(self.driver, 20).until(EC.url_changes(const.loginURL))
+        self.page.navigate_to_settings(const.settingsURL)
+
+        self.page.change_password(const.settings_new_password,"")
+        warnings = self.page.verify_warnings(const.field_error_message)
+        assert warnings == 2, f"Expected 2 warnings, but found {warnings}"
+
