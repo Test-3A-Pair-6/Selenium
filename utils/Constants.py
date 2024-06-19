@@ -13,3 +13,13 @@ social_media_add_message = "• Sosyal medya adresiniz başarıyla eklendi."
 social_media_update_message = "• Sosyal medya adresiniz başarıyla güncellendi."
 field_error_message = "Doldurulması zorunlu alan*"
 emoji = "😋"
+
+loginURL = "https://tobeto.com/giris"
+settingsURL = "https://tobeto.com/profilim/profilimi-duzenle/ayarlar"
+settings_user_name = "kumburgazli.recai@floodouts.com" # bu kısım https://www.fakemail.net/ adresinden edinildi
+settings_password = "Test-3aPair-6"
+settings_new_password = "pair.6.otomasyon"
+change_password_msg = "• Şifreniz güncellenmiştir."
+change_password_wrong_msg = "• Şifreniz en az 6 karakterden oluşmalıdır."
+password_do_not_match_msg = "• Girilen şifreler eşleşmiyor kontrol ediniz.."
+new_password_different_msg = "• Yeni şifreniz mevcut şifrenizden farklı olmalıdır. "
