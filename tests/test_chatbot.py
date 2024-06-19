@@ -68,7 +68,7 @@ class TestChatbot:
         self.driver.switch_to.default_content()
         self.page.chatbotIcon()
         assert self.page.chatbot_icon.is_displayed(), "Chatbot icon is not displayed"
-    @pytest.mark.skip
+
     def test_emoji_check(self):
         self.page.chatbotIcon()
         self.page.chatbot_icon.click()
@@ -83,7 +83,7 @@ class TestChatbot:
         self.page.emojis_button.click()
         self.page.textBox()
         assert self.page.text_box.text == const.emoji
-    @pytest.mark.skip
+
     def test_file_upload(self):
         self.page.chatbotIcon()
         self.page.chatbot_icon.click()

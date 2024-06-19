@@ -66,3 +66,10 @@ class TestSettings:
         self.page.change_password(const.settings_new_password, const.settings_new_password, const.settings_new_password)
         self.page.operationResult()
         assert const.change_password_repeat_msg in self.page.toast_message
+
+    def test_delete_account(self):
+        self.page.login(const.settings_user_name, const.settings_new_password)
+        WebDriverWait(self.driver, 20).until(EC.url_changes(const.loginURL))
+        self.page.navigate_to_settings(const.settingsURL)
+
+        self.page.unsubscribe_account()

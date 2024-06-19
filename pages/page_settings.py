@@ -55,4 +55,16 @@ class PageSettings:
             EC.element_to_be_clickable((By.XPATH, "//button[contains(text(), 'Şifre Değiştir')]"))
         )
         change_password_button.click()
+
+    def unsubscribe_account(self):
+        unsubscribe_button = WebDriverWait(self.driver, 20).until(
+            EC.element_to_be_clickable((By.XPATH, "//button[contains(text(), 'Üyeliği Sonlandır')]"))
+        )
+        unsubscribe_button.click()
+
+        confirm_button_xpath = "//button[contains(@class, 'btn-yes') and text()='Evet']"
+        confirm_button = WebDriverWait(self.driver, 20).until(
+            EC.element_to_be_clickable((By.XPATH, confirm_button_xpath))
+        )
+        confirm_button.click()
     
