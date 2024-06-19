@@ -85,8 +85,8 @@ class PageLanguageCRUD:
         )
         confirm_button.click()
 
-    def verify_warnings(self):
-        warning_xpath = "//p[text()='Doldurulması zorunlu alan*']"
+    def verify_warnings(self, field_error_message):
+        warning_xpath = f"//p[text()='{field_error_message}']"
         warnings = self.driver.find_elements(By.XPATH, warning_xpath)
         return len(warnings)
 

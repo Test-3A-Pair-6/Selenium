@@ -20,7 +20,7 @@ class TestLanguageCRUD:
 
         self.page.add_language(language=const.language, level=const.level)
         self.page.operationResult()
-        assert "• Yabancı dil bilgisi eklendi." in self.page.toast_message
+        assert const.language_added_msg in self.page.toast_message
     
     def test_add_language_both_empty(self):
         self.page.login(const.valid_user_name, const.valid_password)
@@ -28,7 +28,7 @@ class TestLanguageCRUD:
         self.page.navigate_to_languages(const.languagesURL)
 
         self.page.add_language()
-        warnings = self.page.verify_warnings()
+        warnings = self.page.verify_warnings(const.field_error_message)
         assert warnings == 2, f"Expected 2 warnings, but found {warnings}"
 
     def test_add_language_only_language(self):
@@ -37,7 +37,7 @@ class TestLanguageCRUD:
         self.page.navigate_to_languages(const.languagesURL)
 
         self.page.add_language(language=const.language)
-        warnings = self.page.verify_warnings()
+        warnings = self.page.verify_warnings(const.field_error_message)
         assert warnings == 1, f"Expected 1 warning, but found {warnings}"
 
     def test_add_language_only_level(self):
@@ -46,7 +46,7 @@ class TestLanguageCRUD:
         self.page.navigate_to_languages(const.languagesURL)
 
         self.page.add_language(level=const.level)
-        warnings = self.page.verify_warnings()
+        warnings = self.page.verify_warnings(const.field_error_message)
         assert warnings == 1, f"Expected 1 warning, but found {warnings}"
 
     def test_delete_language(self):
@@ -56,4 +56,4 @@ class TestLanguageCRUD:
         
         self.page.delete_language(language=const.language)
         self.page.operationResult()
-        assert const.language_delete_message in self.page.toast_message
+        assert const.language_delete_msg in self.page.toast_message
