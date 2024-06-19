@@ -36,7 +36,7 @@ class PageSettings:
         warnings = self.driver.find_elements(By.XPATH, warning_xpath)
         return len(warnings)
 
-    def change_password(self, current_password, new_password):
+    def change_password(self, current_password, new_password, new_password_confirm):
         current_password_input = WebDriverWait(self.driver, 20).until(
             EC.presence_of_element_located((By.NAME, "currentPassword"))
         )
@@ -49,7 +49,7 @@ class PageSettings:
 
         current_password_input.send_keys(current_password)
         new_password_input.send_keys(new_password)
-        confirm_password_input.send_keys(new_password)
+        confirm_password_input.send_keys(new_password_confirm)
 
         change_password_button = WebDriverWait(self.driver, 20).until(
             EC.element_to_be_clickable((By.XPATH, "//button[contains(text(), 'Şifre Değiştir')]"))

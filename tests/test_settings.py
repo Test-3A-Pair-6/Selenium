@@ -18,7 +18,7 @@ class TestSettings:
         WebDriverWait(self.driver, 20).until(EC.url_changes(const.loginURL))
         self.page.navigate_to_settings(const.settingsURL)
 
-        self.page.change_password(const.settings_password, const.settings_new_password)
+        self.page.change_password(const.settings_password, const.settings_new_password, const.settings_new_password)
         self.page.operationResult()
         assert const.change_password_msg in self.page.toast_message
 
@@ -27,7 +27,7 @@ class TestSettings:
         WebDriverWait(self.driver, 20).until(EC.url_changes(const.loginURL))
         self.page.navigate_to_settings(const.settingsURL)
 
-        self.page.change_password("","")
+        self.page.change_password("","","")
         warnings = self.page.verify_warnings(const.field_error_message)
         assert warnings == 3, f"Expected 3 warnings, but found {warnings}"
 
@@ -36,15 +36,24 @@ class TestSettings:
         WebDriverWait(self.driver, 20).until(EC.url_changes(const.loginURL))
         self.page.navigate_to_settings(const.settingsURL)
 
-        self.page.change_password(const.settings_new_password,"")
+        self.page.change_password(const.settings_new_password, const.settings_password, "")
         warnings = self.page.verify_warnings(const.field_error_message)
-        assert warnings == 2, f"Expected 2 warnings, but found {warnings}"
+        assert warnings == 1, f"Expected 1 warnings, but found {warnings}"
 
     def test_change_password_character_count(self):
         self.page.login(const.settings_user_name, const.settings_new_password)
         WebDriverWait(self.driver, 20).until(EC.url_changes(const.loginURL))
         self.page.navigate_to_settings(const.settingsURL)
 
-        self.page.change_password(const.settings_new_password, const.settings_wrong_new_password)
+        self.page.change_password(const.settings_new_password, const.settings_short_new_password, const.settings_short_new_password)
         self.page.operationResult()
-        assert const.change_password_wrong_msg in self.page.toast_message
+        assert const.change_password_short_msg in self.page.toast_message
+
+    def test_change_password_match(self):
+        self.page.login(const.settings_user_name, const.settings_new_password)
+        WebDriverWait(self.driver, 20).until(EC.url_changes(const.loginURL))
+        self.page.navigate_to_settings(const.settingsURL)
+
+        self.page.change_password(const.settings_new_password, const.settings_password, const.settings_short_new_password)
+        self.page.operationResult()
+        assert const.password_do_not_match_msg in self.page.toast_message
