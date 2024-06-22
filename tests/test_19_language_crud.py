@@ -2,13 +2,13 @@ from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
 from utils import Driver, ConfigReader as cr, Constants as const
-from pages import page_language_crud
+from pages import page_19_language_crud
 
 class TestLanguageCRUD:
     def setup_method(self):
         self.driver = Driver.get_driver()
         self.driver.get(cr.read_config("url_login"))
-        self.page = page_language_crud.PageLanguageCRUD(self.driver)
+        self.page = page_19_language_crud.PageLanguageCRUD(self.driver)
 
     def teardown_method(self): 
         self.driver.quit()
