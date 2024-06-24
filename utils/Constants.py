@@ -15,7 +15,14 @@ social_media_add_message = "• Sosyal medya adresiniz başarıyla eklendi."
 social_media_update_message = "• Sosyal medya adresiniz başarıyla güncellendi."
 field_error_message = "Doldurulması zorunlu alan*"
 emoji = "😋"
+
 loginURL = "https://tobeto.com/giris"
+languagesURL = "https://tobeto.com/profilim/profilimi-duzenle/yabanci-dil"
+language = "Arapça"
+level = " Temel Seviye (A1, A2)"
+language_added_msg = "• Yabancı dil bilgisi eklendi."
+language_delete_msg = "• Yabancı dil kaldırıldı."
+
 settingsURL = "https://tobeto.com/profilim/profilimi-duzenle/ayarlar"
 settings_user_name = "kumburgazli.recai@floodouts.com" # bu kısım https://www.fakemail.net/ adresinden edinildi
 settings_password = "Test-3aPair-6"
@@ -32,3 +39,4 @@ year = date.today().year
 survey_message = "Atanmış herhangi bir anketiniz bulunmamaktadır"
 lesson_name = "Dr. Ecmel Ayral'dan Hoşgeldin Mesajı"
 favorite_add_message = "Favorilere ekleme işlemin başarıyla gerçekleşti."
+
