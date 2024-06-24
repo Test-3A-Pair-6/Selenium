@@ -1,3 +1,6 @@
+import os
+from time import sleep
+
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.support import expected_conditions as ec
@@ -11,6 +14,21 @@ def wait(driver, selector, element, flag="visit", timeout=20):
         return WebDriverWait(driver, timeout).until(ec.visibility_of_element_located((selector, element)))
     if flag == "click":
         return WebDriverWait(driver, timeout).until(ec.element_to_be_clickable((selector, element)))
+    if flag == "url":
+        return WebDriverWait(driver, timeout).until(ec.url_to_be(element))
+
+
+def multiple_wait(driver, selector, element, flag="visit", timeout=20):
+    if flag == "visit":
+        return WebDriverWait(driver, timeout).until(ec.visibility_of_all_elements_located((selector, element)))
+
+
+def screenshot(driver, dir_name, file_name, wait_time=0):
+    screenshot_dir = dir_name
+    os.makedirs(screenshot_dir, exist_ok=True)
+    screenshot_path = os.path.join(screenshot_dir, file_name)
+    sleep(wait_time)
+    driver.save_screenshot(screenshot_path)
 
 
 def get_driver():

@@ -1,4 +1,3 @@
-import os
 from time import sleep
 
 import pytest
@@ -6,15 +5,15 @@ from selenium.common import ElementClickInterceptedException
 from selenium.webdriver import Keys
 from selenium.webdriver.common.by import By
 
-from pages import page_social_media
+from pages import page_18_social_media
 from utils import Driver, ConfigReader as cr, Constants as const
 
 
 class TestSocialMedia:
     def setup_method(self):
         self.driver = Driver.get_driver()
-        self.driver.get(cr.read_config("url_login"))
-        self.page = page_social_media.PageSocialMedia(self.driver)
+        self.driver.get(cr.read_config("url_main"))
+        self.page = page_18_social_media.PageSocialMedia(self.driver)
 
     def teardown_method(self):
         self.driver.quit()
@@ -27,7 +26,8 @@ class TestSocialMedia:
         sleep(2)
         frames = self.driver.find_elements(By.TAG_NAME, "iframe")
         self.driver.switch_to.frame(frames[0])
-        rechaptcha = self.driver.find_element(By.XPATH, "//div[@class='recaptcha-checkbox-border' and @role='presentation']")
+        rechaptcha = self.driver.find_element(By.XPATH,
+                                              "//div[@class='recaptcha-checkbox-border' and @role='presentation']")
         rechaptcha.click()
         self.driver.switch_to.default_content()
         sleep(2)
@@ -60,11 +60,7 @@ class TestSocialMedia:
         self.page.account_url.send_keys(url)
         self.page.save_button.click()
         self.page.operationResult()
-        screenshot_dir = '../screenshots'
-        os.makedirs(screenshot_dir, exist_ok=True)
-        screenshot_path = os.path.join(screenshot_dir, f'{media}_added.png')
-        sleep(1)
-        self.driver.save_screenshot(screenshot_path)
+        Driver.screenshot(self.driver, "../screenshots/screenshots_18_social_media", f"{media}_added.png")
         assert const.social_media_add_message in self.page.toast_message
         if media == "Twitter":
             self.page.mediaCount()

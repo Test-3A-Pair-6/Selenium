@@ -5,7 +5,7 @@ import pyautogui
 import pytest
 from selenium.webdriver import Keys
 
-from pages import page_chatbot
+from pages import page_4_chatbot
 from utils import ConfigReader as cr
 from utils import Constants as const
 from utils import Driver
@@ -14,13 +14,12 @@ from utils import Driver
 class TestChatbot:
     def setup_method(self):
         self.driver = Driver.get_driver()
-        self.driver.get(cr.read_config("url_login"))
-        self.page = page_chatbot.PageChatbot(self.driver)
+        self.driver.get(cr.read_config("url_main"))
+        self.page = page_4_chatbot.PageChatbot(self.driver)
 
     def teardown_method(self):
         self.driver.quit()
 
-    @pytest.mark.skip
     def test_chatbot_icon(self):
         self.page.chatbotIcon()
         self.page.chatbot_icon.click()
@@ -32,7 +31,6 @@ class TestChatbot:
         self.page.chatbotIcon()
         assert self.page.chatbot_icon.is_displayed(), "Chatbot icon is not displayed"
 
-    @pytest.mark.skip
     @pytest.mark.parametrize("param", [1, 2])
     def test_chatbot_window(self, param):
         self.page.chatbotIcon()
@@ -53,7 +51,6 @@ class TestChatbot:
             self.page.chatbotWindowNameEntered(5)
             assert const.choice_2_message in self.page.messages[-1].text, "Chatbot message is not displayed"
 
-    @pytest.mark.skip
     def test_chatbot_window_close(self):
         self.page.chatbotIcon()
         self.page.chatbot_icon.click()
@@ -96,7 +93,7 @@ class TestChatbot:
         self.page.file_upload.click()
         # Wait for the file manager to open
         sleep(2)
-        screenshot_dir = '../screenshots'
+        screenshot_dir = '../screenshots/screenshots_4_chatbot'
         os.makedirs(screenshot_dir, exist_ok=True)
         screenshot_path = os.path.join(screenshot_dir, 'file_manager.png')
         # screenshot the system screen
