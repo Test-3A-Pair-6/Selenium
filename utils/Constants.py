@@ -40,3 +40,11 @@ survey_message = "Atanmış herhangi bir anketiniz bulunmamaktadır"
 lesson_name = "Dr. Ecmel Ayral'dan Hoşgeldin Mesajı"
 favorite_add_message = "Favorilere ekleme işlemin başarıyla gerçekleşti."
 
+certificatesURL = "https://tobeto.com/profilim/profilimi-duzenle/sertifikalarim"
+certificateName = "certificate1"
+certificateYear = "2024"
+certificatePDF = "C:\\Users\\Miray\\Downloads\\TobetoTest-3A\\Python_Essentials_1_Badge20240523-8-9tn7xa.pdf"
+invalidCertificate = "C:\\Users\\Miray\\Downloads\\TobetoTest-3A\\Jira.csv"
+invalid_certificate_message = "Sadece image/jpeg, image/png, application/pdf yükleyebilirsiniz"
+certificate_delete_message = "• Dosya kaldırma işlemi başarılı."
+
