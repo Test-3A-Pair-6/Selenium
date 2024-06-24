@@ -40,7 +40,6 @@ survey_message = "Atanmış herhangi bir anketiniz bulunmamaktadır"
 lesson_name = "Dr. Ecmel Ayral'dan Hoşgeldin Mesajı"
 favorite_add_message = "Favorilere ekleme işlemin başarıyla gerçekleşti."
 
-loginURL = "https://tobeto.com/giris"
 certificatesURL = "https://tobeto.com/profilim/profilimi-duzenle/sertifikalarim"
 certificateName = "certificate1"
 certificateYear = "2024"
