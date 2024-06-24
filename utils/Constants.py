@@ -1,3 +1,5 @@
+from datetime import date
+
 user_name = "Meyra CEBEL"
 valid_user_name = "meyracebel@gmail.com"
 valid_password = "pair.6.otomasyon"
@@ -13,3 +15,10 @@ social_media_add_message = "• Sosyal medya adresiniz başarıyla eklendi."
 social_media_update_message = "• Sosyal medya adresiniz başarıyla güncellendi."
 field_error_message = "Doldurulması zorunlu alan*"
 emoji = "😋"
+lesson_name = "Deneme"
+instructor_name = "Gürkan İlişen"
+months = ["Ocak", "Şubat", "Mart", "Nisan", "Mayıs", "Haziran", "Temmuz", "Ağustos", "Eylül", "Ekim", "Kasım", "Aralık"]
+year = date.today().year
+survey_message = "Atanmış herhangi bir anketiniz bulunmamaktadır"
+lesson_name = "Dr. Ecmel Ayral'dan Hoşgeldin Mesajı"
+favorite_add_message = "Favorilere ekleme işlemin başarıyla gerçekleşti."
