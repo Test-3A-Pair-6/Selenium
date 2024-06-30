@@ -48,3 +48,9 @@ invalidCertificate = "C:\\Users\\Miray\\Downloads\\TobetoTest-3A\\Jira.csv"
 invalid_certificate_message = "Sadece image/jpeg, image/png, application/pdf yükleyebilirsiniz"
 certificate_delete_message = "• Dosya kaldırma işlemi başarılı."
 
+# 8 - 9 - 10 for these tests valid and active user of TOBETO is required
+announcement_definitive_title = "Duyuru"
+main_announcement_title = "Duyurularım"
+total_amount_notify_cards = 9
+no_announcement_found_message = "Bir duyuru bulunmamaktadır."
+search_bar_input_text = "Ocak"

@@ -1,0 +1,102 @@
+Last Announcement
+This one is the last one: Message: 
+Stacktrace:
+0   chromedriver                        0x00000001050d6a80 chromedriver + 4385408
+1   chromedriver                        0x00000001050cf38c chromedriver + 4354956
+2   chromedriver                        0x0000000104cecb0c chromedriver + 281356
+3   chromedriver                        0x0000000104d2f2f8 chromedriver + 553720
+4   chromedriver                        0x0000000104d67d24 chromedriver + 785700
+5   chromedriver                        0x0000000104d23eec chromedriver + 507628
+6   chromedriver                        0x0000000104d248c4 chromedriver + 510148
+7   chromedriver                        0x000000010509e43c chromedriver + 4154428
+8   chromedriver                        0x00000001050a2ea0 chromedriver + 4173472
+9   chromedriver                        0x0000000105083ff8 chromedriver + 4046840
+10  chromedriver                        0x00000001050a378c chromedriver + 4175756
+11  chromedriver                        0x0000000105076fb8 chromedriver + 3993528
+12  chromedriver                        0x00000001050c121c chromedriver + 4297244
+13  chromedriver                        0x00000001050c1398 chromedriver + 4297624
+14  chromedriver                        0x00000001050cef84 chromedriver + 4353924
+15  libsystem_pthread.dylib             0x0000000199e86f94 _pthread_start + 136
+16  libsystem_pthread.dylib             0x0000000199e81d34 thread_start + 8
+
+This one is the last one: Message: 
+Stacktrace:
+0   chromedriver                        0x00000001050d6a80 chromedriver + 4385408
+1   chromedriver                        0x00000001050cf38c chromedriver + 4354956
+2   chromedriver                        0x0000000104cecb0c chromedriver + 281356
+3   chromedriver                        0x0000000104d2f2f8 chromedriver + 553720
+4   chromedriver                        0x0000000104d67d24 chromedriver + 785700
+5   chromedriver                        0x0000000104d23eec chromedriver + 507628
+6   chromedriver                        0x0000000104d248c4 chromedriver + 510148
+7   chromedriver                        0x000000010509e43c chromedriver + 4154428
+8   chromedriver                        0x00000001050a2ea0 chromedriver + 4173472
+9   chromedriver                        0x0000000105083ff8 chromedriver + 4046840
+10  chromedriver                        0x00000001050a378c chromedriver + 4175756
+11  chromedriver                        0x0000000105076fb8 chromedriver + 3993528
+12  chromedriver                        0x00000001050c121c chromedriver + 4297244
+13  chromedriver                        0x00000001050c1398 chromedriver + 4297624
+14  chromedriver                        0x00000001050cef84 chromedriver + 4353924
+15  libsystem_pthread.dylib             0x0000000199e86f94 _pthread_start + 136
+16  libsystem_pthread.dylib             0x0000000199e81d34 thread_start + 8
+
+This one is the last one: Message: 
+Stacktrace:
+0   chromedriver                        0x00000001050d6a80 chromedriver + 4385408
+1   chromedriver                        0x00000001050cf38c chromedriver + 4354956
+2   chromedriver                        0x0000000104cecb0c chromedriver + 281356
+3   chromedriver                        0x0000000104d2f2f8 chromedriver + 553720
+4   chromedriver                        0x0000000104d67d24 chromedriver + 785700
+5   chromedriver                        0x0000000104d23eec chromedriver + 507628
+6   chromedriver                        0x0000000104d248c4 chromedriver + 510148
+7   chromedriver                        0x000000010509e43c chromedriver + 4154428
+8   chromedriver                        0x00000001050a2ea0 chromedriver + 4173472
+9   chromedriver                        0x0000000105083ff8 chromedriver + 4046840
+10  chromedriver                        0x00000001050a378c chromedriver + 4175756
+11  chromedriver                        0x0000000105076fb8 chromedriver + 3993528
+12  chromedriver                        0x00000001050c121c chromedriver + 4297244
+13  chromedriver                        0x00000001050c1398 chromedriver + 4297624
+14  chromedriver                        0x00000001050cef84 chromedriver + 4353924
+15  libsystem_pthread.dylib             0x0000000199e86f94 _pthread_start + 136
+16  libsystem_pthread.dylib             0x0000000199e81d34 thread_start + 8
+
+This one is the last one: Message: 
+Stacktrace:
+0   chromedriver                        0x00000001050d6a80 chromedriver + 4385408
+1   chromedriver                        0x00000001050cf38c chromedriver + 4354956
+2   chromedriver                        0x0000000104cecb0c chromedriver + 281356
+3   chromedriver                        0x0000000104d2f2f8 chromedriver + 553720
+4   chromedriver                        0x0000000104d67d24 chromedriver + 785700
+5   chromedriver                        0x0000000104d23eec chromedriver + 507628
+6   chromedriver                        0x0000000104d248c4 chromedriver + 510148
+7   chromedriver                        0x000000010509e43c chromedriver + 4154428
+8   chromedriver                        0x00000001050a2ea0 chromedriver + 4173472
+9   chromedriver                        0x0000000105083ff8 chromedriver + 4046840
+10  chromedriver                        0x00000001050a378c chromedriver + 4175756
+11  chromedriver                        0x0000000105076fb8 chromedriver + 3993528
+12  chromedriver                        0x00000001050c121c chromedriver + 4297244
+13  chromedriver                        0x00000001050c1398 chromedriver + 4297624
+14  chromedriver                        0x00000001050cef84 chromedriver + 4353924
+15  libsystem_pthread.dylib             0x0000000199e86f94 _pthread_start + 136
+16  libsystem_pthread.dylib             0x0000000199e81d34 thread_start + 8
+
+This one is the last one: Message: 
+Stacktrace:
+0   chromedriver                        0x00000001050d6a80 chromedriver + 4385408
+1   chromedriver                        0x00000001050cf38c chromedriver + 4354956
+2   chromedriver                        0x0000000104cecb0c chromedriver + 281356
+3   chromedriver                        0x0000000104d2f2f8 chromedriver + 553720
+4   chromedriver                        0x0000000104d67d24 chromedriver + 785700
+5   chromedriver                        0x0000000104d23eec chromedriver + 507628
+6   chromedriver                        0x0000000104d248c4 chromedriver + 510148
+7   chromedriver                        0x000000010509e43c chromedriver + 4154428
+8   chromedriver                        0x00000001050a2ea0 chromedriver + 4173472
+9   chromedriver                        0x0000000105083ff8 chromedriver + 4046840
+10  chromedriver                        0x00000001050a378c chromedriver + 4175756
+11  chromedriver                        0x0000000105076fb8 chromedriver + 3993528
+12  chromedriver                        0x00000001050c121c chromedriver + 4297244
+13  chromedriver                        0x00000001050c1398 chromedriver + 4297624
+14  chromedriver                        0x00000001050cef84 chromedriver + 4353924
+15  libsystem_pthread.dylib             0x0000000199e86f94 _pthread_start + 136
+16  libsystem_pthread.dylib             0x0000000199e81d34 thread_start + 8
+
+Sorting is working properly from previous to latest

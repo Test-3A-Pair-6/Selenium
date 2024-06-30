@@ -7,7 +7,7 @@ from pages import page_17_certificate_crud
 class TestCertificateCRUD:
     def setup_method(self):
         self.driver = Driver.get_driver()
-        self.driver.get(cr.read_config("url_login"))
+        self.driver.get(cr.read_config("url_main"))
         self.page = page_17_certificate_crud.PageCertificateCRUD(self.driver)
 
     def teardown_method(self): 
