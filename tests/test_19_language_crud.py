@@ -7,7 +7,7 @@ from pages import page_19_language_crud
 class TestLanguageCRUD:
     def setup_method(self):
         self.driver = Driver.get_driver()
-        self.driver.get(cr.read_config("url_login"))
+        self.driver.get(cr.read_config("url_main"))
         self.page = page_19_language_crud.PageLanguageCRUD(self.driver)
 
     def teardown_method(self): 
