@@ -1,0 +1,27 @@
+Normal click failed: Message: element click intercepted: Element is not clickable at point (267, 1684)
+  (Session info: chrome=126.0.6478.127)
+Stacktrace:
+0   chromedriver                        0x000000010444ea80 chromedriver + 4385408
+1   chromedriver                        0x000000010444738c chromedriver + 4354956
+2   chromedriver                        0x0000000104064b0c chromedriver + 281356
+3   chromedriver                        0x00000001040acce0 chromedriver + 576736
+4   chromedriver                        0x00000001040ab284 chromedriver + 569988
+5   chromedriver                        0x00000001040a9414 chromedriver + 562196
+6   chromedriver                        0x00000001040a85b0 chromedriver + 558512
+7   chromedriver                        0x000000010409dcfc chromedriver + 515324
+8   chromedriver                        0x000000010409d734 chromedriver + 513844
+9   chromedriver                        0x00000001040dfd24 chromedriver + 785700
+10  chromedriver                        0x000000010409beec chromedriver + 507628
+11  chromedriver                        0x000000010409c8c4 chromedriver + 510148
+12  chromedriver                        0x000000010441643c chromedriver + 4154428
+13  chromedriver                        0x000000010441aea0 chromedriver + 4173472
+14  chromedriver                        0x00000001043fbff8 chromedriver + 4046840
+15  chromedriver                        0x000000010441b78c chromedriver + 4175756
+16  chromedriver                        0x00000001043eefb8 chromedriver + 3993528
+17  chromedriver                        0x000000010443921c chromedriver + 4297244
+18  chromedriver                        0x0000000104439398 chromedriver + 4297624
+19  chromedriver                        0x0000000104446f84 chromedriver + 4353924
+20  libsystem_pthread.dylib             0x0000000199e86f94 _pthread_start + 136
+21  libsystem_pthread.dylib             0x0000000199e81d34 thread_start + 8
+. JavaScript will try clicking.
+Clicking with JavaScript was successful.

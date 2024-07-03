@@ -1,0 +1,29 @@
+Element clicked successfully.
+Element clicked successfully.
+Normal click failed: Message: element click intercepted: Element is not clickable at point (717, 908)
+  (Session info: chrome=126.0.6478.127)
+Stacktrace:
+0   chromedriver                        0x0000000101006a80 chromedriver + 4385408
+1   chromedriver                        0x0000000100fff38c chromedriver + 4354956
+2   chromedriver                        0x0000000100c1cb0c chromedriver + 281356
+3   chromedriver                        0x0000000100c64ce0 chromedriver + 576736
+4   chromedriver                        0x0000000100c63284 chromedriver + 569988
+5   chromedriver                        0x0000000100c61414 chromedriver + 562196
+6   chromedriver                        0x0000000100c605b0 chromedriver + 558512
+7   chromedriver                        0x0000000100c55cfc chromedriver + 515324
+8   chromedriver                        0x0000000100c55734 chromedriver + 513844
+9   chromedriver                        0x0000000100c97d24 chromedriver + 785700
+10  chromedriver                        0x0000000100c53eec chromedriver + 507628
+11  chromedriver                        0x0000000100c548c4 chromedriver + 510148
+12  chromedriver                        0x0000000100fce43c chromedriver + 4154428
+13  chromedriver                        0x0000000100fd2ea0 chromedriver + 4173472
+14  chromedriver                        0x0000000100fb3ff8 chromedriver + 4046840
+15  chromedriver                        0x0000000100fd378c chromedriver + 4175756
+16  chromedriver                        0x0000000100fa6fb8 chromedriver + 3993528
+17  chromedriver                        0x0000000100ff121c chromedriver + 4297244
+18  chromedriver                        0x0000000100ff1398 chromedriver + 4297624
+19  chromedriver                        0x0000000100ffef84 chromedriver + 4353924
+20  libsystem_pthread.dylib             0x0000000199e86f94 _pthread_start + 136
+21  libsystem_pthread.dylib             0x0000000199e81d34 thread_start + 8
+. JavaScript will try clicking.
+Clicking with JavaScript was successful.

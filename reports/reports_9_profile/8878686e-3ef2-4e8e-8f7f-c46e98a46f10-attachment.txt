@@ -1,0 +1,3 @@
+Switch button is already deactivated
+Switch activation is successful
+Switch deactivation is successful

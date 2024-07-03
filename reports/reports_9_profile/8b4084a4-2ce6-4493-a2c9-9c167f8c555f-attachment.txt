@@ -1,0 +1,39 @@
+Element clicked successfully.
+Element clicked successfully.
+Normal click failed: Message: element click intercepted: Element is not clickable at point (717, 908)
+  (Session info: chrome=126.0.6478.127)
+Stacktrace:
+0   chromedriver                        0x0000000102a9ea80 chromedriver + 4385408
+1   chromedriver                        0x0000000102a9738c chromedriver + 4354956
+2   chromedriver                        0x00000001026b4b0c chromedriver + 281356
+3   chromedriver                        0x00000001026fcce0 chromedriver + 576736
+4   chromedriver                        0x00000001026fb284 chromedriver + 569988
+5   chromedriver                        0x00000001026f9414 chromedriver + 562196
+6   chromedriver                        0x00000001026f85b0 chromedriver + 558512
+7   chromedriver                        0x00000001026edcfc chromedriver + 515324
+8   chromedriver                        0x00000001026ed734 chromedriver + 513844
+9   chromedriver                        0x000000010272fd24 chromedriver + 785700
+10  chromedriver                        0x00000001026ebeec chromedriver + 507628
+11  chromedriver                        0x00000001026ec8c4 chromedriver + 510148
+12  chromedriver                        0x0000000102a6643c chromedriver + 4154428
+13  chromedriver                        0x0000000102a6aea0 chromedriver + 4173472
+14  chromedriver                        0x0000000102a4bff8 chromedriver + 4046840
+15  chromedriver                        0x0000000102a6b78c chromedriver + 4175756
+16  chromedriver                        0x0000000102a3efb8 chromedriver + 3993528
+17  chromedriver                        0x0000000102a8921c chromedriver + 4297244
+18  chromedriver                        0x0000000102a89398 chromedriver + 4297624
+19  chromedriver                        0x0000000102a96f84 chromedriver + 4353924
+20  libsystem_pthread.dylib             0x0000000199e86f94 _pthread_start + 136
+21  libsystem_pthread.dylib             0x0000000199e81d34 thread_start + 8
+. JavaScript will try clicking.
+Clicking with JavaScript was successful.
+An unexpected error occurred: 'list' object has no attribute 'click'
+An unexpected error occurred: 'list' object has no attribute 'click'
+An unexpected error occurred: 'list' object has no attribute 'click'
+An unexpected error occurred: 'list' object has no attribute 'click'
+An unexpected error occurred: 'list' object has no attribute 'click'
+An unexpected error occurred: 'list' object has no attribute 'click'
+An unexpected error occurred: 'list' object has no attribute 'click'
+An unexpected error occurred: 'list' object has no attribute 'click'
+An unexpected error occurred: 'list' object has no attribute 'click'
+An unexpected error occurred: 'list' object has no attribute 'click'

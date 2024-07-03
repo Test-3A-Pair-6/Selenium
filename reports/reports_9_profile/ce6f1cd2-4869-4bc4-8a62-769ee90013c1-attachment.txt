@@ -1,0 +1,3 @@
+Element clicked successfully.
+https://tobeto.com/degerlendirmeler
+Driver navigated to Evaluations Page successfully

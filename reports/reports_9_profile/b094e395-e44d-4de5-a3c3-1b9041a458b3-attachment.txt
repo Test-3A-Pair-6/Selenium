@@ -1,0 +1,298 @@
+Element clicked successfully.
+Element clicked successfully.
+Normal click failed: Message: element click intercepted: Element is not clickable at point (717, 908)
+  (Session info: chrome=126.0.6478.127)
+Stacktrace:
+0   chromedriver                        0x00000001047b2a80 chromedriver + 4385408
+1   chromedriver                        0x00000001047ab38c chromedriver + 4354956
+2   chromedriver                        0x00000001043c8b0c chromedriver + 281356
+3   chromedriver                        0x0000000104410ce0 chromedriver + 576736
+4   chromedriver                        0x000000010440f284 chromedriver + 569988
+5   chromedriver                        0x000000010440d414 chromedriver + 562196
+6   chromedriver                        0x000000010440c5b0 chromedriver + 558512
+7   chromedriver                        0x0000000104401cfc chromedriver + 515324
+8   chromedriver                        0x0000000104401734 chromedriver + 513844
+9   chromedriver                        0x0000000104443d24 chromedriver + 785700
+10  chromedriver                        0x00000001043ffeec chromedriver + 507628
+11  chromedriver                        0x00000001044008c4 chromedriver + 510148
+12  chromedriver                        0x000000010477a43c chromedriver + 4154428
+13  chromedriver                        0x000000010477eea0 chromedriver + 4173472
+14  chromedriver                        0x000000010475fff8 chromedriver + 4046840
+15  chromedriver                        0x000000010477f78c chromedriver + 4175756
+16  chromedriver                        0x0000000104752fb8 chromedriver + 3993528
+17  chromedriver                        0x000000010479d21c chromedriver + 4297244
+18  chromedriver                        0x000000010479d398 chromedriver + 4297624
+19  chromedriver                        0x00000001047aaf84 chromedriver + 4353924
+20  libsystem_pthread.dylib             0x0000000199e86f94 _pthread_start + 136
+21  libsystem_pthread.dylib             0x0000000199e81d34 thread_start + 8
+. JavaScript will try clicking.
+Clicking with JavaScript was successful.
+Click 1: Name attribute of the button is '326596'
+Click 1: Name attribute of the button is '326597'
+Click 1: Name attribute of the button is '326598'
+Click 1: Name attribute of the button is '326599'
+Click 1: Name attribute of the button is '326600'
+Click 1: Name attribute of the button is '326601'
+Click 1: Name attribute of the button is '326602'
+Click 1: Name attribute of the button is '326603'
+Click 1: Name attribute of the button is '326604'
+Click 1: Name attribute of the button is '326605'
+Normal click failed: Message: element click intercepted: Element is not clickable at point (716, 732)
+  (Session info: chrome=126.0.6478.127)
+Stacktrace:
+0   chromedriver                        0x00000001047b2a80 chromedriver + 4385408
+1   chromedriver                        0x00000001047ab38c chromedriver + 4354956
+2   chromedriver                        0x00000001043c8b0c chromedriver + 281356
+3   chromedriver                        0x0000000104410ce0 chromedriver + 576736
+4   chromedriver                        0x000000010440f284 chromedriver + 569988
+5   chromedriver                        0x000000010440d414 chromedriver + 562196
+6   chromedriver                        0x000000010440c5b0 chromedriver + 558512
+7   chromedriver                        0x0000000104401cfc chromedriver + 515324
+8   chromedriver                        0x0000000104401734 chromedriver + 513844
+9   chromedriver                        0x0000000104443d24 chromedriver + 785700
+10  chromedriver                        0x00000001043ffeec chromedriver + 507628
+11  chromedriver                        0x00000001044008c4 chromedriver + 510148
+12  chromedriver                        0x000000010477a43c chromedriver + 4154428
+13  chromedriver                        0x000000010477eea0 chromedriver + 4173472
+14  chromedriver                        0x000000010475fff8 chromedriver + 4046840
+15  chromedriver                        0x000000010477f78c chromedriver + 4175756
+16  chromedriver                        0x0000000104752fb8 chromedriver + 3993528
+17  chromedriver                        0x000000010479d21c chromedriver + 4297244
+18  chromedriver                        0x000000010479d398 chromedriver + 4297624
+19  chromedriver                        0x00000001047aaf84 chromedriver + 4353924
+20  libsystem_pthread.dylib             0x0000000199e86f94 _pthread_start + 136
+21  libsystem_pthread.dylib             0x0000000199e81d34 thread_start + 8
+. JavaScript will try clicking.
+Clicking with JavaScript was successful.
+Click 1: Name attribute of the button is '326606'
+Click 1: Name attribute of the button is '326607'
+Click 1: Name attribute of the button is '326608'
+Click 1: Name attribute of the button is '326609'
+Click 1: Name attribute of the button is '326610'
+Click 1: Name attribute of the button is '326611'
+Click 1: Name attribute of the button is '326612'
+Click 1: Name attribute of the button is '326613'
+Click 1: Name attribute of the button is '326614'
+Click 1: Name attribute of the button is '326615'
+Normal click failed: Message: element click intercepted: Element is not clickable at point (753, 752)
+  (Session info: chrome=126.0.6478.127)
+Stacktrace:
+0   chromedriver                        0x00000001047b2a80 chromedriver + 4385408
+1   chromedriver                        0x00000001047ab38c chromedriver + 4354956
+2   chromedriver                        0x00000001043c8b0c chromedriver + 281356
+3   chromedriver                        0x0000000104410ce0 chromedriver + 576736
+4   chromedriver                        0x000000010440f284 chromedriver + 569988
+5   chromedriver                        0x000000010440d414 chromedriver + 562196
+6   chromedriver                        0x000000010440c5b0 chromedriver + 558512
+7   chromedriver                        0x0000000104401cfc chromedriver + 515324
+8   chromedriver                        0x0000000104401734 chromedriver + 513844
+9   chromedriver                        0x0000000104443d24 chromedriver + 785700
+10  chromedriver                        0x00000001043ffeec chromedriver + 507628
+11  chromedriver                        0x00000001044008c4 chromedriver + 510148
+12  chromedriver                        0x000000010477a43c chromedriver + 4154428
+13  chromedriver                        0x000000010477eea0 chromedriver + 4173472
+14  chromedriver                        0x000000010475fff8 chromedriver + 4046840
+15  chromedriver                        0x000000010477f78c chromedriver + 4175756
+16  chromedriver                        0x0000000104752fb8 chromedriver + 3993528
+17  chromedriver                        0x000000010479d21c chromedriver + 4297244
+18  chromedriver                        0x000000010479d398 chromedriver + 4297624
+19  chromedriver                        0x00000001047aaf84 chromedriver + 4353924
+20  libsystem_pthread.dylib             0x0000000199e86f94 _pthread_start + 136
+21  libsystem_pthread.dylib             0x0000000199e81d34 thread_start + 8
+. JavaScript will try clicking.
+Clicking with JavaScript was successful.
+Click 1: Name attribute of the button is '326616'
+Click 1: Name attribute of the button is '326617'
+Click 1: Name attribute of the button is '326618'
+Click 1: Name attribute of the button is '326619'
+Click 1: Name attribute of the button is '326620'
+Click 1: Name attribute of the button is '326621'
+Click 1: Name attribute of the button is '326622'
+Click 1: Name attribute of the button is '326623'
+Click 1: Name attribute of the button is '326624'
+Click 1: Name attribute of the button is '326625'
+Normal click failed: Message: element click intercepted: Element is not clickable at point (753, 726)
+  (Session info: chrome=126.0.6478.127)
+Stacktrace:
+0   chromedriver                        0x00000001047b2a80 chromedriver + 4385408
+1   chromedriver                        0x00000001047ab38c chromedriver + 4354956
+2   chromedriver                        0x00000001043c8b0c chromedriver + 281356
+3   chromedriver                        0x0000000104410ce0 chromedriver + 576736
+4   chromedriver                        0x000000010440f284 chromedriver + 569988
+5   chromedriver                        0x000000010440d414 chromedriver + 562196
+6   chromedriver                        0x000000010440c5b0 chromedriver + 558512
+7   chromedriver                        0x0000000104401cfc chromedriver + 515324
+8   chromedriver                        0x0000000104401734 chromedriver + 513844
+9   chromedriver                        0x0000000104443d24 chromedriver + 785700
+10  chromedriver                        0x00000001043ffeec chromedriver + 507628
+11  chromedriver                        0x00000001044008c4 chromedriver + 510148
+12  chromedriver                        0x000000010477a43c chromedriver + 4154428
+13  chromedriver                        0x000000010477eea0 chromedriver + 4173472
+14  chromedriver                        0x000000010475fff8 chromedriver + 4046840
+15  chromedriver                        0x000000010477f78c chromedriver + 4175756
+16  chromedriver                        0x0000000104752fb8 chromedriver + 3993528
+17  chromedriver                        0x000000010479d21c chromedriver + 4297244
+18  chromedriver                        0x000000010479d398 chromedriver + 4297624
+19  chromedriver                        0x00000001047aaf84 chromedriver + 4353924
+20  libsystem_pthread.dylib             0x0000000199e86f94 _pthread_start + 136
+21  libsystem_pthread.dylib             0x0000000199e81d34 thread_start + 8
+. JavaScript will try clicking.
+Clicking with JavaScript was successful.
+Click 1: Name attribute of the button is '326626'
+Click 1: Name attribute of the button is '326627'
+Click 1: Name attribute of the button is '326628'
+Click 1: Name attribute of the button is '326629'
+Click 1: Name attribute of the button is '326630'
+Click 1: Name attribute of the button is '326631'
+Click 1: Name attribute of the button is '326632'
+Click 1: Name attribute of the button is '326633'
+Click 1: Name attribute of the button is '326634'
+Click 1: Name attribute of the button is '326635'
+Normal click failed: Message: element click intercepted: Element is not clickable at point (753, 732)
+  (Session info: chrome=126.0.6478.127)
+Stacktrace:
+0   chromedriver                        0x00000001047b2a80 chromedriver + 4385408
+1   chromedriver                        0x00000001047ab38c chromedriver + 4354956
+2   chromedriver                        0x00000001043c8b0c chromedriver + 281356
+3   chromedriver                        0x0000000104410ce0 chromedriver + 576736
+4   chromedriver                        0x000000010440f284 chromedriver + 569988
+5   chromedriver                        0x000000010440d414 chromedriver + 562196
+6   chromedriver                        0x000000010440c5b0 chromedriver + 558512
+7   chromedriver                        0x0000000104401cfc chromedriver + 515324
+8   chromedriver                        0x0000000104401734 chromedriver + 513844
+9   chromedriver                        0x0000000104443d24 chromedriver + 785700
+10  chromedriver                        0x00000001043ffeec chromedriver + 507628
+11  chromedriver                        0x00000001044008c4 chromedriver + 510148
+12  chromedriver                        0x000000010477a43c chromedriver + 4154428
+13  chromedriver                        0x000000010477eea0 chromedriver + 4173472
+14  chromedriver                        0x000000010475fff8 chromedriver + 4046840
+15  chromedriver                        0x000000010477f78c chromedriver + 4175756
+16  chromedriver                        0x0000000104752fb8 chromedriver + 3993528
+17  chromedriver                        0x000000010479d21c chromedriver + 4297244
+18  chromedriver                        0x000000010479d398 chromedriver + 4297624
+19  chromedriver                        0x00000001047aaf84 chromedriver + 4353924
+20  libsystem_pthread.dylib             0x0000000199e86f94 _pthread_start + 136
+21  libsystem_pthread.dylib             0x0000000199e81d34 thread_start + 8
+. JavaScript will try clicking.
+Clicking with JavaScript was successful.
+Click 1: Name attribute of the button is '326636'
+Click 1: Name attribute of the button is '326637'
+Click 1: Name attribute of the button is '326638'
+Click 1: Name attribute of the button is '326639'
+Click 1: Name attribute of the button is '326640'
+Click 1: Name attribute of the button is '326641'
+Click 1: Name attribute of the button is '326642'
+Click 1: Name attribute of the button is '326643'
+Click 1: Name attribute of the button is '326644'
+Click 1: Name attribute of the button is '326645'
+Normal click failed: Message: element click intercepted: Element is not clickable at point (753, 731)
+  (Session info: chrome=126.0.6478.127)
+Stacktrace:
+0   chromedriver                        0x00000001047b2a80 chromedriver + 4385408
+1   chromedriver                        0x00000001047ab38c chromedriver + 4354956
+2   chromedriver                        0x00000001043c8b0c chromedriver + 281356
+3   chromedriver                        0x0000000104410ce0 chromedriver + 576736
+4   chromedriver                        0x000000010440f284 chromedriver + 569988
+5   chromedriver                        0x000000010440d414 chromedriver + 562196
+6   chromedriver                        0x000000010440c5b0 chromedriver + 558512
+7   chromedriver                        0x0000000104401cfc chromedriver + 515324
+8   chromedriver                        0x0000000104401734 chromedriver + 513844
+9   chromedriver                        0x0000000104443d24 chromedriver + 785700
+10  chromedriver                        0x00000001043ffeec chromedriver + 507628
+11  chromedriver                        0x00000001044008c4 chromedriver + 510148
+12  chromedriver                        0x000000010477a43c chromedriver + 4154428
+13  chromedriver                        0x000000010477eea0 chromedriver + 4173472
+14  chromedriver                        0x000000010475fff8 chromedriver + 4046840
+15  chromedriver                        0x000000010477f78c chromedriver + 4175756
+16  chromedriver                        0x0000000104752fb8 chromedriver + 3993528
+17  chromedriver                        0x000000010479d21c chromedriver + 4297244
+18  chromedriver                        0x000000010479d398 chromedriver + 4297624
+19  chromedriver                        0x00000001047aaf84 chromedriver + 4353924
+20  libsystem_pthread.dylib             0x0000000199e86f94 _pthread_start + 136
+21  libsystem_pthread.dylib             0x0000000199e81d34 thread_start + 8
+. JavaScript will try clicking.
+Clicking with JavaScript was successful.
+Click 1: Name attribute of the button is '326646'
+Click 1: Name attribute of the button is '326647'
+Click 1: Name attribute of the button is '326648'
+Click 1: Name attribute of the button is '326649'
+Click 1: Name attribute of the button is '326650'
+Click 1: Name attribute of the button is '326651'
+Click 1: Name attribute of the button is '326652'
+Click 1: Name attribute of the button is '326653'
+Click 1: Name attribute of the button is '326654'
+Click 1: Name attribute of the button is '326655'
+Normal click failed: Message: element click intercepted: Element is not clickable at point (753, 730)
+  (Session info: chrome=126.0.6478.127)
+Stacktrace:
+0   chromedriver                        0x00000001047b2a80 chromedriver + 4385408
+1   chromedriver                        0x00000001047ab38c chromedriver + 4354956
+2   chromedriver                        0x00000001043c8b0c chromedriver + 281356
+3   chromedriver                        0x0000000104410ce0 chromedriver + 576736
+4   chromedriver                        0x000000010440f284 chromedriver + 569988
+5   chromedriver                        0x000000010440d414 chromedriver + 562196
+6   chromedriver                        0x000000010440c5b0 chromedriver + 558512
+7   chromedriver                        0x0000000104401cfc chromedriver + 515324
+8   chromedriver                        0x0000000104401734 chromedriver + 513844
+9   chromedriver                        0x0000000104443d24 chromedriver + 785700
+10  chromedriver                        0x00000001043ffeec chromedriver + 507628
+11  chromedriver                        0x00000001044008c4 chromedriver + 510148
+12  chromedriver                        0x000000010477a43c chromedriver + 4154428
+13  chromedriver                        0x000000010477eea0 chromedriver + 4173472
+14  chromedriver                        0x000000010475fff8 chromedriver + 4046840
+15  chromedriver                        0x000000010477f78c chromedriver + 4175756
+16  chromedriver                        0x0000000104752fb8 chromedriver + 3993528
+17  chromedriver                        0x000000010479d21c chromedriver + 4297244
+18  chromedriver                        0x000000010479d398 chromedriver + 4297624
+19  chromedriver                        0x00000001047aaf84 chromedriver + 4353924
+20  libsystem_pthread.dylib             0x0000000199e86f94 _pthread_start + 136
+21  libsystem_pthread.dylib             0x0000000199e81d34 thread_start + 8
+. JavaScript will try clicking.
+Clicking with JavaScript was successful.
+Click 1: Name attribute of the button is '326656'
+Click 1: Name attribute of the button is '326657'
+Click 1: Name attribute of the button is '326658'
+Click 1: Name attribute of the button is '326659'
+Click 1: Name attribute of the button is '326660'
+Click 1: Name attribute of the button is '326661'
+Click 1: Name attribute of the button is '326662'
+Click 1: Name attribute of the button is '326663'
+Click 1: Name attribute of the button is '326664'
+Click 1: Name attribute of the button is '326665'
+Normal click failed: Message: element click intercepted: Element is not clickable at point (753, 727)
+  (Session info: chrome=126.0.6478.127)
+Stacktrace:
+0   chromedriver                        0x00000001047b2a80 chromedriver + 4385408
+1   chromedriver                        0x00000001047ab38c chromedriver + 4354956
+2   chromedriver                        0x00000001043c8b0c chromedriver + 281356
+3   chromedriver                        0x0000000104410ce0 chromedriver + 576736
+4   chromedriver                        0x000000010440f284 chromedriver + 569988
+5   chromedriver                        0x000000010440d414 chromedriver + 562196
+6   chromedriver                        0x000000010440c5b0 chromedriver + 558512
+7   chromedriver                        0x0000000104401cfc chromedriver + 515324
+8   chromedriver                        0x0000000104401734 chromedriver + 513844
+9   chromedriver                        0x0000000104443d24 chromedriver + 785700
+10  chromedriver                        0x00000001043ffeec chromedriver + 507628
+11  chromedriver                        0x00000001044008c4 chromedriver + 510148
+12  chromedriver                        0x000000010477a43c chromedriver + 4154428
+13  chromedriver                        0x000000010477eea0 chromedriver + 4173472
+14  chromedriver                        0x000000010475fff8 chromedriver + 4046840
+15  chromedriver                        0x000000010477f78c chromedriver + 4175756
+16  chromedriver                        0x0000000104752fb8 chromedriver + 3993528
+17  chromedriver                        0x000000010479d21c chromedriver + 4297244
+18  chromedriver                        0x000000010479d398 chromedriver + 4297624
+19  chromedriver                        0x00000001047aaf84 chromedriver + 4353924
+20  libsystem_pthread.dylib             0x0000000199e86f94 _pthread_start + 136
+21  libsystem_pthread.dylib             0x0000000199e81d34 thread_start + 8
+. JavaScript will try clicking.
+Clicking with JavaScript was successful.
+Click 1: Name attribute of the button is '326666'
+Click 1: Name attribute of the button is '326667'
+Click 1: Name attribute of the button is '326668'
+Click 1: Name attribute of the button is '326669'
+Click 1: Name attribute of the button is '326670'
+Click 1: Name attribute of the button is '326671'
+Click 1: Name attribute of the button is '326672'
+Click 1: Name attribute of the button is '326673'
+Click 1: Name attribute of the button is '326674'
+Click 1: Name attribute of the button is '326675'
