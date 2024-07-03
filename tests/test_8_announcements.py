@@ -1,5 +1,4 @@
 import os
-from time import sleep
 import pytest
 
 from selenium.webdriver.support.wait import WebDriverWait
@@ -51,7 +50,6 @@ class TestAnnouncementNews:
         self.page.find_sort_asc_button()
         self.driver.execute_script("arguments[0].click();", self.page.sort_asc_button)
         self.driver.execute_script("window.scrollTo(0, 350);")
-        sleep(1)
         Driver.screenshot(self.driver, "../screenshots/screenshots_8_announcements", "oldest_Announcement_on_first_page.png")
 
     def sort_announcements_by_date_desc(self):
@@ -59,7 +57,6 @@ class TestAnnouncementNews:
         self.page.find_sort_desc_button()
         self.driver.execute_script("arguments[0].click();", self.page.sort_desc_button)
         self.driver.execute_script("window.scrollTo(0, 350);")
-        sleep(1)
         Driver.screenshot(self.driver, "../screenshots/screenshots_8_announcements",
                           "latest_Announcement_on_first_page.png")
 
@@ -75,7 +72,6 @@ class TestAnnouncementNews:
             self.driver.execute_script("arguments[0].click()", self.page.forward_button)
 
         print("Last Announcement")
-        sleep(2)
 
     def find_last_announcement(self):
         self.click_forward_until_last_page()
@@ -105,10 +101,8 @@ class TestAnnouncementNews:
         self.page.search_bar.send_keys(const.search_bar_input_text)
         self.driver.execute_script("arguments[0].click()", self.page.search_button)
         self.driver.execute_script("window.scrollTo(0, 150);")
-        sleep(2)
         self.page.find_first_announcement_header()  # Should be called after search
         self.header = self.page.first_announcement_header
-
 
     def test_navigate_first_announcements_tab(self):
         self.navigate_to_first_announcements_tab()
@@ -124,12 +118,10 @@ class TestAnnouncementNews:
 
     def test_checking_nine_announcements(self):
         self.navigate_to_all_announcements()
-        sleep(2)
         self.driver.refresh()
         self.page.finding_all_notify_cards()
         for card_title in self.page.all_notify_cards:
             assert card_title == const.announcement_definitive_title, f"Attention {card_title} is not matching"
-        sleep(1)
         Driver.screenshot(self.driver, "../screenshots/screenshots_8_announcements", "found_All_Announcements.png")
 
     def test_sort_announcements_by_date_asc(self):

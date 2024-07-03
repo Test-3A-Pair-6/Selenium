@@ -17,6 +17,7 @@ class TestProfile:
     shared_profile_url = None
     file_path = os.path.join(const.path_9_download,
                              const.pdf_file_9_downloaded)  # "file_path = os.path.join(download_path, file_name)"
+
     def setup_method(self):
         self.driver = Driver.get_driver()
         self.driver.get(cr.read_config("url_main"))
@@ -27,8 +28,6 @@ class TestProfile:
 
     def login(self):
         self.page.login_info()
-        #self.page.user_name.send_keys(const.user_mail_ismet)
-        #self.page.password.send_keys(const.user_password_ismet)
         self.page.user_name.send_keys(const.valid_user_name)
         self.page.password.send_keys(const.valid_password)
         self.page.submit_button()
@@ -122,67 +121,6 @@ class TestProfile:
         self.new_url = self.driver.current_url
         print(self.new_url)
 
-    def navigating_to_evaluation_page(self):
-        self.login()
-        self.page.find_evaluation_button()
-        self.click_element(self.page.evaluation_button_on_top_menu)
-
-    def navigating_to_evaluation_modul(self):
-        self.navigating_to_evaluation_page()
-        self.page.find_start_button_for_evaluation()
-        sleep(1)
-        self.click_element(self.page.start_evaluation_button)
-        self.driver.execute_script("window.scrollTo(0, 650);")
-        sleep(1)
-        self.page.find_confirm_start_button()
-        self.click_element(self.page.confirm_start_button)
-
-    def hide_widget_div(self):
-        self.page.find_widget()
-        self.driver.execute_script("arguments[0].style.display = 'none';", self.page.iframe_widget_div)
-        sleep(2)
-
-    def click_on_radio_buttons(self):
-        self.page.find_radio_buttons()
-        sleep(3)
-        actions = ActionChains(self.driver)
-
-        # Iterate through each radio button and click it
-        for radio_button in self.page.radio_buttons:
-            # Ensure the element is clickable before clicking
-            WebDriverWait(self.driver, 10).until(EC.element_to_be_clickable(radio_button))
-
-            # Scroll to the radio button
-            actions.move_to_element(radio_button).perform()
-
-            # Click the radio button
-            radio_button.click()
-            counter = 1
-            name_attribute = radio_button.get_attribute('name')
-            print(f"Click {counter}: Name attribute of the button is '{name_attribute}'")
-
-            # Increment the counter
-            counter += 1
-        sleep(3)
-
-    def first_forward(self):
-        self.page.find_evaluation_forward_button()
-        self.click_element(self.page.evaluation_forward_button)
-        self.driver.execute_script("window.scrollTo(0, 550);")
-        sleep(1)
-
-    def other_forwards(self):
-        self.page.find_other_forward_buttons()
-        self.click_element(self.page.other_forward_buttons)
-        self.driver.execute_script("window.scrollTo(0, 550);")
-        sleep(1)
-
-    def navigating_analyze_report(self):
-        self.navigating_to_evaluation_page()
-        self.page.find_start_button_for_evaluation()
-        self.click_element(self.page.start_evaluation_button)
-        sleep(2)
-
     @pytest.mark.navigating_1
     def test_navigating_to_my_profile(self):
         self.navigating_to_my_profile_page()
@@ -232,59 +170,6 @@ class TestProfile:
         self.click_media_icon()
         self.get_new_url()
         Driver.screenshot(self.driver, "../screenshots/screenshots_9_profile", "test_6_navigating_social_media.png")
-        assert self.new_url != const.url_my_profile
+        assert self.new_url != const.url_9_my_profile
         print("Media link is working")
 
-    def test_navigating_to_evaluation_page(self):
-        self.navigating_to_evaluation_page()
-        self.get_new_url()
-        assert self.new_url == const.url_evaluation, "Driver failed to reach evaluations page"
-        print("Driver navigated to Evaluations Page successfully")
-        Driver.screenshot(self.driver, "../screenshots/screenshots_9_profile", "test_7_navigating_evaluationPage.png")
-
-    def test_completing_evaluation_module(self):
-        self.navigating_to_evaluation_modul()
-        sleep(2)
-        self.hide_widget_div()
-        # before click first page
-        Driver.screenshot(self.driver, "../screenshots/screenshots_9_profile", "test_8_1_evaluation_modul.png")
-        self.click_on_radio_buttons()
-        sleep(1)
-        Driver.screenshot(self.driver, "../screenshots/screenshots_9_profile", "test_8_2_evaluation_modul.png")
-        self.first_forward()  # 20
-        self.click_on_radio_buttons()
-        sleep(1)
-        Driver.screenshot(self.driver, "../screenshots/screenshots_9_profile", "test_8_3_evaluation_modul.png")
-        self.other_forwards()  # 30
-        self.click_on_radio_buttons()
-        sleep(1)
-        Driver.screenshot(self.driver, "../screenshots/screenshots_9_profile", "test_8_4_evaluation_modul.png")
-        self.other_forwards()  # 40
-        self.click_on_radio_buttons()
-        sleep(1)
-        Driver.screenshot(self.driver, "../screenshots/screenshots_9_profile", "test_8_5_evaluation_modul.png")
-        self.other_forwards()  # 50
-        self.click_on_radio_buttons()
-        sleep(1)
-        Driver.screenshot(self.driver, "../screenshots/screenshots_9_profile", "test_8_6_evaluation_modul.png")
-        self.other_forwards()  # 60
-        self.click_on_radio_buttons()
-        sleep(1)
-        Driver.screenshot(self.driver, "../screenshots/screenshots_9_profile", "test_8_7_evaluation_modul.png")
-        self.other_forwards()  # 70
-        self.click_on_radio_buttons()
-        sleep(1)
-        Driver.screenshot(self.driver, "../screenshots/screenshots_9_profile", "test_8_8_evaluation_modul.png")
-        self.other_forwards()  # 80
-        sleep(1)
-        self.click_on_radio_buttons()
-        sleep(1)
-        Driver.screenshot(self.driver, "../screenshots/screenshots_9_profile", "test_8_10_evaluation_modul.png")
-        sleep(20)
-
-    def test_display_evaluation_analyze_report(self):
-        self.navigating_analyze_report()
-        self.get_new_url()
-        assert self.new_url == const.ur_evaluation_report, "Navigating to analyze report failed"
-        print("Analyze Report displayed successfully")
-        Driver.screenshot(self.driver, "../screenshots/screenshots_9_profile", "test_9_evaluation_analyze_report.png")

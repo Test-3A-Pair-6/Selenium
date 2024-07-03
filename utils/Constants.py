@@ -67,6 +67,9 @@ header_9_on_profile_link = "Ad Soyad"
 path_9_download = "/path/to/download/directory"  # change_this_path_according_to_your_path 
 pdf_file_9_downloaded = "b9ef9bfd-2b55-46fb-ac18-415fd68a1f79.pdf"
 pdf_file_9_download_status = True
-url_my_profile = "https://tobeto.com/profilim"
-url_evaluation = "https://tobeto.com/degerlendirmeler"
-ur_evaluation_report = "https://tobeto.com/profilim/degerlendirmeler/rapor/tobeto-iste-basari-modeli/1"
+url_9_my_profile = "https://tobeto.com/profilim"
+
+# 10
+url_10_evaluation = "https://tobeto.com/degerlendirmeler"
+url_10_evaluation_report = "https://tobeto.com/profilim/degerlendirmeler/rapor/tobeto-iste-basari-modeli/1"
+text_10_exam_done = "Test Bitti"
