@@ -49,8 +49,24 @@ invalid_certificate_message = "Sadece image/jpeg, image/png, application/pdf yü
 certificate_delete_message = "• Dosya kaldırma işlemi başarılı."
 
 # 8 - 9 - 10 for these tests valid and active user of TOBETO is required
+# 8 - 9 - 10
+
+# 8
 announcement_definitive_title = "Duyuru"
 main_announcement_title = "Duyurularım"
 total_amount_notify_cards = 9
 no_announcement_found_message = "Bir duyuru bulunmamaktadır."
 search_bar_input_text = "Ocak"
+
+# 9
+title_9_professional_xp = "Profesyonel İş Deneyimi"
+title_9_profile_share_link = "Profil Linki"
+false_value_9_aria_checked = "false"
+true_value_9_aria_checked = "true"
+header_9_on_profile_link = "Ad Soyad"
+path_9_download = "/path/to/download/directory"  # change_this_path_according_to_your_path 
+pdf_file_9_downloaded = "b9ef9bfd-2b55-46fb-ac18-415fd68a1f79.pdf"
+pdf_file_9_download_status = True
+url_my_profile = "https://tobeto.com/profilim"
+url_evaluation = "https://tobeto.com/degerlendirmeler"
+ur_evaluation_report = "https://tobeto.com/profilim/degerlendirmeler/rapor/tobeto-iste-basari-modeli/1"

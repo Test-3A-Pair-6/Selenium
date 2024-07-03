@@ -1,0 +1,28 @@
+Normal click failed: Message: element click intercepted: Element is not clickable at point (337, 1673)
+  (Session info: chrome=126.0.6478.127)
+Stacktrace:
+0   chromedriver                        0x00000001010eaa80 chromedriver + 4385408
+1   chromedriver                        0x00000001010e338c chromedriver + 4354956
+2   chromedriver                        0x0000000100d00b0c chromedriver + 281356
+3   chromedriver                        0x0000000100d48ce0 chromedriver + 576736
+4   chromedriver                        0x0000000100d47284 chromedriver + 569988
+5   chromedriver                        0x0000000100d45414 chromedriver + 562196
+6   chromedriver                        0x0000000100d445b0 chromedriver + 558512
+7   chromedriver                        0x0000000100d39cfc chromedriver + 515324
+8   chromedriver                        0x0000000100d39734 chromedriver + 513844
+9   chromedriver                        0x0000000100d7bd24 chromedriver + 785700
+10  chromedriver                        0x0000000100d37eec chromedriver + 507628
+11  chromedriver                        0x0000000100d388c4 chromedriver + 510148
+12  chromedriver                        0x00000001010b243c chromedriver + 4154428
+13  chromedriver                        0x00000001010b6ea0 chromedriver + 4173472
+14  chromedriver                        0x0000000101097ff8 chromedriver + 4046840
+15  chromedriver                        0x00000001010b778c chromedriver + 4175756
+16  chromedriver                        0x000000010108afb8 chromedriver + 3993528
+17  chromedriver                        0x00000001010d521c chromedriver + 4297244
+18  chromedriver                        0x00000001010d5398 chromedriver + 4297624
+19  chromedriver                        0x00000001010e2f84 chromedriver + 4353924
+20  libsystem_pthread.dylib             0x0000000199e86f94 _pthread_start + 136
+21  libsystem_pthread.dylib             0x0000000199e81d34 thread_start + 8
+. JavaScript will try clicking.
+Clicking with JavaScript was successful.
+PDF download failed
