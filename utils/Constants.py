@@ -70,3 +70,14 @@ pdf_file_9_download_status = True
 url_my_profile = "https://tobeto.com/profilim"
 url_evaluation = "https://tobeto.com/degerlendirmeler"
 ur_evaluation_report = "https://tobeto.com/profilim/degerlendirmeler/rapor/tobeto-iste-basari-modeli/1"
+
+
+
+#14 #15 #16
+skills_error_message1 = "• Herhangi bir yetenek seçmediniz!"
+skills_error_message2 = "• Yetenek kaldırıldı."
+skills_error_message3 = "• Yetenek eklendi."
+education_message = "• Eğitim bilgisi eklendi."
+experiences_message = "• Deneyim eklendi."
+tanger_message = "En az 5 karakter girmelisiniz"
+many_character_message = "En fazla 50 karakter girebilirsiniz"
