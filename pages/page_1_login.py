@@ -35,7 +35,7 @@ class PageLogin:
                                               "//div[@class='recaptcha-checkbox-border' and @role='presentation']")
         rechaptcha.click()
         self.driver.switch_to.default_content()
-        sleep(20)
+        
 
     def clicks_the_login_button(self):
         login_button = self.driver.find_element(By.XPATH, "//button[@type=\"submit\"]")

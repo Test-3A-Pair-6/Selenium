@@ -42,7 +42,7 @@ class PageSignUp:
     def clicks_sign_up_button(self):
         self.sign_up_button = self.driver.find_element(By.XPATH, "//button[contains(@class, 'btn-primary')]")
         self.sign_up_button.click()
-        sleep(20)
+       
 
     def checks_registration_approvals(self):
         self.driver.execute_script('document.querySelector(\'input[name="contact"]\').click();')
