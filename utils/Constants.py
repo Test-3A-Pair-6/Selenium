@@ -99,7 +99,8 @@ pdf_file_9_download_status = True
 url_my_profile = "https://tobeto.com/profilim"
 
 # 10
-url_10_evaluation = "https://tobeto.com/degerlendirmeler"url_10_evaluation_report = "https://tobeto.com/profilim/degerlendirmeler/rapor/tobeto-iste-basari-modeli/1" 
+url_10_evaluation = "https://tobeto.com/degerlendirmeler" 
+url_10_evaluation_report = "https://tobeto.com/profilim/degerlendirmeler/rapor/tobeto-iste-basari-modeli/1" 
 
 
 #testotomasyon
@@ -116,3 +117,19 @@ education_message = "• Eğitim bilgisi eklendi."
 experiences_message = "• Deneyim eklendi."
 tanger_message = "En az 5 karakter girmelisiniz"
 many_character_message = "En fazla 50 karakter girebilirsiniz"
+
+#11 #12 #13
+name = "Demet"
+last_name = "Koç"
+id_error_message = "Satın alınan eğitimlerin faturası için doldurulması zorunlu alan."
+phone_code = "Türkiye"
+phone_number = "555 665 26 55"
+birth_day = "12.12.1990"
+id_number = "44444444444"
+country = "Türkiye"
+city = "İstanbul"
+district = "Avcılar"
+neighbourhood = "Murat Mah. Sancar Sk."
+description = "Yazılım Test mühendisliği alanında Tobetoda eğitim alıyorum."
+neighbourhood_character = "CİHAN mah Kür sok.Sncashdashdncaschjdbcbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbhhhhhhhhhhhhhhhhhhhhhhhhhhhhhheeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+description_character = "Merhaba, ben John. 28 yaşındayım ve New York'ta yaşıyorum. Bilgisayar bilimleri alanında eğitim aldım ve yapay zeka konusunda tutkulu biriyim. Yazılım geliştirme ve doğal dil işleme üzerine çalışıyorum. Boş zamanlarımda kitap okumayı, müzik dinlemeyi ve seyahat etmeyi severim. İyi bir kahveyle güne başlamak benim için vazgeçilmezdir. Yeni teknolojileri takip etmeyi ve insanlarla fikir alışverişinde bulunmayı çok seviyorum."
