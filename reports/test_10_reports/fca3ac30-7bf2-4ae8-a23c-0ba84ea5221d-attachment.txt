@@ -1,0 +1,2 @@
+Element clicked successfully.
+An unexpected error occurred: 'NoneType' object has no attribute 'click'
