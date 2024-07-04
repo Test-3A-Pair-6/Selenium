@@ -1,5 +1,34 @@
 from datetime import date
 
+# 1 - 2 - 3
+
+invalid_user_name = "aa@gmail.com"
+invalid_password_ = "1234567"
+sign_up_first_name = "Regina"
+sign_up_last_name = "Phalange"
+sign_up_email = "reginaphalange@gmail.com"
+sign_up_invalid_email ="a"
+sign_up_password = "123456"
+sign_up_short_password = "123"
+valid_sign_up_phone_number ="5552224472"
+short_sign_up_phone_number = "555222"
+long_sign_up_phone_number ="55522211445"
+sign_up_invalid_email_text = "Geçersiz e-posta adresi*"
+empty_email_password_text = "Doldurulması zorunlu alan*"
+forgot_password_email = "test3a_pair6@outlook.com"
+new_password = "123450"
+invalid_phone_number_sign_up = "abcd!"
+success_password_reset_message2 = "• Şifre sıfırlama işlemi başarılı."
+forgot_password_invalid_email = "gecersiz@outlook"
+unsuccess_password_reset_message = "• Girdiğiniz e-posta geçersizdir."
+success_password_reset_message = "• Şifre sıfırlama linkini e-posta adresinize gönderdik. Lütfen gelen kutunuzu kontrol edin."
+reset_password_url = "https://tobeto.com/reset-password?code=75068a51ad64aceb8290b8ffd3584419be249532a7494278a3dfc242d867631ea62b3041d95a13972de559a14ff0315a3db19761dce57d095c540a060f611ba1"
+success_message = "• Giriş başarılı."
+error_message = "Doldurulması zorunlu alan*"
+failed_log_in_message = "• Geçersiz e-posta veya şifre."
+
+
+
 user_name = "Meyra CEBEL"
 valid_user_name = "meyracebel@gmail.com"
 valid_password = "pair.6.otomasyon"
