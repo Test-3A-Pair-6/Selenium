@@ -1,3 +1,0 @@
-Element clicked successfully.
-PDF founded successfully
-passed

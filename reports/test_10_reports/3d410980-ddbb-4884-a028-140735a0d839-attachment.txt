@@ -1,0 +1,104 @@
+Element clicked successfully.
+Normal click failed: Message: element click intercepted: Element is not clickable at point (1221, 863)
+  (Session info: chrome=126.0.6478.127)
+Stacktrace:
+0   chromedriver                        0x0000000102bb2a80 chromedriver + 4385408
+1   chromedriver                        0x0000000102bab38c chromedriver + 4354956
+2   chromedriver                        0x00000001027c8b0c chromedriver + 281356
+3   chromedriver                        0x0000000102810ce0 chromedriver + 576736
+4   chromedriver                        0x000000010280f284 chromedriver + 569988
+5   chromedriver                        0x000000010280d414 chromedriver + 562196
+6   chromedriver                        0x000000010280c5b0 chromedriver + 558512
+7   chromedriver                        0x0000000102801cfc chromedriver + 515324
+8   chromedriver                        0x0000000102801734 chromedriver + 513844
+9   chromedriver                        0x0000000102843d24 chromedriver + 785700
+10  chromedriver                        0x00000001027ffeec chromedriver + 507628
+11  chromedriver                        0x00000001028008c4 chromedriver + 510148
+12  chromedriver                        0x0000000102b7a43c chromedriver + 4154428
+13  chromedriver                        0x0000000102b7eea0 chromedriver + 4173472
+14  chromedriver                        0x0000000102b5fff8 chromedriver + 4046840
+15  chromedriver                        0x0000000102b7f78c chromedriver + 4175756
+16  chromedriver                        0x0000000102b52fb8 chromedriver + 3993528
+17  chromedriver                        0x0000000102b9d21c chromedriver + 4297244
+18  chromedriver                        0x0000000102b9d398 chromedriver + 4297624
+19  chromedriver                        0x0000000102baaf84 chromedriver + 4353924
+20  libsystem_pthread.dylib             0x0000000199e86f94 _pthread_start + 136
+21  libsystem_pthread.dylib             0x0000000199e81d34 thread_start + 8
+. JavaScript will try clicking.
+Clicking with JavaScript was successful.
+Element clicked successfully.
+Element clicked successfully.
+Screenshot saved as ../screenshots/screenshots_10_evaluation/test_4_1_exam.png
+Element clicked successfully.
+Element clicked successfully.
+Screenshot saved as ../screenshots/screenshots_10_evaluation/test_4_1_exam.png
+Element clicked successfully.
+Element clicked successfully.
+Screenshot saved as ../screenshots/screenshots_10_evaluation/test_4_1_exam.png
+Element clicked successfully.
+Element clicked successfully.
+Screenshot saved as ../screenshots/screenshots_10_evaluation/test_4_1_exam.png
+Element clicked successfully.
+Element clicked successfully.
+Screenshot saved as ../screenshots/screenshots_10_evaluation/test_4_1_exam.png
+Element clicked successfully.
+Element clicked successfully.
+Screenshot saved as ../screenshots/screenshots_10_evaluation/test_4_1_exam.png
+Element clicked successfully.
+Element clicked successfully.
+Screenshot saved as ../screenshots/screenshots_10_evaluation/test_4_1_exam.png
+Element clicked successfully.
+Element clicked successfully.
+Screenshot saved as ../screenshots/screenshots_10_evaluation/test_4_1_exam.png
+Element clicked successfully.
+Element clicked successfully.
+Screenshot saved as ../screenshots/screenshots_10_evaluation/test_4_1_exam.png
+Element clicked successfully.
+Element clicked successfully.
+Screenshot saved as ../screenshots/screenshots_10_evaluation/test_4_1_exam.png
+Element clicked successfully.
+Element clicked successfully.
+Screenshot saved as ../screenshots/screenshots_10_evaluation/test_4_1_exam.png
+Element clicked successfully.
+Element clicked successfully.
+Screenshot saved as ../screenshots/screenshots_10_evaluation/test_4_1_exam.png
+Element clicked successfully.
+Element clicked successfully.
+Screenshot saved as ../screenshots/screenshots_10_evaluation/test_4_1_exam.png
+Element clicked successfully.
+Element clicked successfully.
+Screenshot saved as ../screenshots/screenshots_10_evaluation/test_4_1_exam.png
+Element clicked successfully.
+Element clicked successfully.
+Screenshot saved as ../screenshots/screenshots_10_evaluation/test_4_1_exam.png
+Element clicked successfully.
+Element clicked successfully.
+Screenshot saved as ../screenshots/screenshots_10_evaluation/test_4_1_exam.png
+Element clicked successfully.
+Element clicked successfully.
+Screenshot saved as ../screenshots/screenshots_10_evaluation/test_4_1_exam.png
+Element clicked successfully.
+Element clicked successfully.
+Screenshot saved as ../screenshots/screenshots_10_evaluation/test_4_1_exam.png
+Element clicked successfully.
+Element clicked successfully.
+Screenshot saved as ../screenshots/screenshots_10_evaluation/test_4_1_exam.png
+Element clicked successfully.
+Element clicked successfully.
+Screenshot saved as ../screenshots/screenshots_10_evaluation/test_4_1_exam.png
+Element clicked successfully.
+Element clicked successfully.
+Screenshot saved as ../screenshots/screenshots_10_evaluation/test_4_1_exam.png
+Element clicked successfully.
+Element clicked successfully.
+Screenshot saved as ../screenshots/screenshots_10_evaluation/test_4_1_exam.png
+Element clicked successfully.
+Element clicked successfully.
+Screenshot saved as ../screenshots/screenshots_10_evaluation/test_4_1_exam.png
+Element clicked successfully.
+Element clicked successfully.
+Screenshot saved as ../screenshots/screenshots_10_evaluation/test_4_1_exam.png
+Element clicked successfully.
+Element clicked successfully.
+Screenshot saved as ../screenshots/screenshots_10_evaluation/test_4_1_exam.png
+Element clicked successfully.

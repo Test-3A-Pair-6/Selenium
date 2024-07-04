@@ -74,27 +74,3 @@ class ProfilePage:
 
     def find_url_linkedin(self):
         self.linkedin_url = self.driver.current_url
-
-    def find_evaluation_button(self):
-        self.evaluation_button_on_top_menu = Driver.wait(self.driver, By.XPATH, '//*[@id="__next"]/div/nav/div[1]/ul/li[3]/a', "click", 5)
-
-    def find_start_button_for_evaluation(self):
-        self.start_evaluation_button = Driver.wait(self.driver, By.XPATH, '//*[@id="__next"]/div/main/section[2]/div/div/div[1]/div/a', "click", 5)
-
-    def find_confirm_start_button(self):
-        self.confirm_start_button = Driver.wait(self.driver, By.XPATH, '//*[@id="__next"]/div/main/section/div/div/div/div[3]/a', "click", 5)
-
-    def find_radio_buttons(self):
-        self.radio_buttons = WebDriverWait(self.driver, 20).until(EC.presence_of_all_elements_located((By.XPATH, "//input[@value='1']")))
-
-    def find_evaluation_forward_button(self):
-        self.evaluation_forward_button = Driver.wait(self.driver, By.XPATH, '//*[@id="__next"]/div/main/section/div/div/div[2]/div[2]/button', "click", 5)
-
-    def find_other_forward_buttons(self):
-        self.other_forward_buttons = Driver.wait(self.driver, By.XPATH, '//*[@id="__next"]/div/main/section/div/div/div[2]/div[2]/button[2]', "click", 5)
-
-    def find_widget(self):
-        self.iframe_widget_div = Driver.wait(self.driver, By.XPATH, '//*[@id="exaironWebchat"]/div/div', "visit", 5)
-
-    def find_main_page_on_top_menu(self):
-        self.main_page_button_on_menu = Driver.wait(self.driver, By.XPATH, '//*[@id="__next"]/div/nav/div[1]/ul/li[1]/a', "click", 5)
