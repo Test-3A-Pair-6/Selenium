@@ -69,4 +69,6 @@ pdf_file_9_downloaded = "b9ef9bfd-2b55-46fb-ac18-415fd68a1f79.pdf"
 pdf_file_9_download_status = True
 url_my_profile = "https://tobeto.com/profilim"
 url_evaluation = "https://tobeto.com/degerlendirmeler"
-ur_evaluation_report = "https://tobeto.com/profilim/degerlendirmeler/rapor/tobeto-iste-basari-modeli/1"
+ur_evaluation_report = "https://tobeto.com/profilim/degerlendirmeler/rapor/tobeto-iste-basari-modeli/1" 
+
+
